@@ -1,0 +1,30 @@
+{
+  "name": "js-telergam-bot",
+  "version": "1.0.0",
+  "description": "This is my first implementation of such a project in Javascript and I hope you like it",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKuzibaev/js-telergam-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DKuzibaev/js-telergam-bot/issues"
+  },
+  "homepage": "https://github.com/DKuzibaev/js-telergam-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "firebase": "^10.1.0",
+    "firebase-admin": "^11.10.1",
+    "node": "^20.5.0",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^3.0.1"
+  }
+}
